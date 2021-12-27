@@ -1,0 +1,22 @@
+:root{
+    --branco: #FFF;
+    --font: 'robot'; scroll-snap-stop: -serif;
+}
+
+body{
+        font-family: 'Roboto Condensed', sans-serif;
+        text-align:left;
+}
+header{
+    background-color: silver;
+}
+.principal{
+    background-image: url(imgs/fundo1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+
+footer{
+    background-color: thistle;
+}
