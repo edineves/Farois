@@ -5,8 +5,7 @@
     --vermelho: #B72E2E;
     --cinza: #71726f;
     --cinza-escuro: #333131;
-    --verde: #b8b523;   
-
+    --verde: #b8b523;  
     --font: 'robot', sans-ferif;    
 }
 
@@ -20,7 +19,6 @@ body{
     width: 100%;
     background-image: url(imgs/fundo1.jpg);
     background-size: cover;
-
     height: 800px;
 }
 .principal-home{
@@ -28,9 +26,23 @@ body{
     width: 100%;
     background-image: url(imgs/fundo2.jpg);
     background-size: cover;
-    height: 800px;
+
 }
 
 footer{
     background: linear-gradient(#0a4b6b, #042738 );
+}
+
+.botao{
+    text-align: center;
+    font-size: 'robot' ;
+    color: black;
+    opacity: 90%;
+    width: 100%;
+    max-width:400px;
+    display: block;
+    box-sizing: border-box;    
+    padding: 3rem 4rem; 
+    border: 1px solid var(--branco);
+    border-radius: 5px;
 }
