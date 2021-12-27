@@ -1,22 +1,36 @@
 :root{
     --branco: #FFF;
-    --font: 'robot'; scroll-snap-stop: -serif;
+    --azul:#aec5d1;
+    --azul-escuro: #094461;        
+    --vermelho: #B72E2E;
+    --cinza: #71726f;
+    --cinza-escuro: #333131;
+    --verde: #b8b523;   
+
+    --font: 'robot', sans-ferif;    
 }
 
 body{
         font-family: 'Roboto Condensed', sans-serif;
         text-align:left;
 }
-header{
-    background-color: silver;
-}
+
 .principal{
+    margin: 0px;
+    width: 100%;
     background-image: url(imgs/fundo1.jpg);
     background-size: cover;
+
+    height: 800px;
+}
+.principal-home{
+    margin: 0px;
     width: 100%;
+    background-image: url(imgs/fundo2.jpg);
+    background-size: cover;
     height: 800px;
 }
 
 footer{
-    background-color: thistle;
+    background: linear-gradient(#0a4b6b, #042738 );
 }
